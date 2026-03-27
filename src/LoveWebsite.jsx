@@ -66,7 +66,7 @@ export default function LoveWebsite() {
                         playsInline
                         className="w-full h-full object-cover opacity-60"
                     >
-                        <source src="/WhatsAVideo 2026-03-16 at 9.16.49 AM.mp4" type="video/mp4" />
+                        <source src="/wa_video_2026_02_11_2135.mp4" type="video/mp4" />
                     </video>
                     <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]"></div>
                 </div>
@@ -107,7 +107,7 @@ export default function LoveWebsite() {
 
     return (
         <div className="bg-gradient-to-b from-rose-100 via-pink-200 to-rose-300 text-gray-800 overflow-hidden relative">
-            <audio ref={audioRef} src="./new_music.mp4" loop />
+            <audio ref={audioRef} src="/music.mp3" loop />
 
             <button
                 onClick={() => {
